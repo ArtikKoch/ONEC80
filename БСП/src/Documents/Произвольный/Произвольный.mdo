@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3e14b806-f151-488e-acba-f7c963be43ef">
+  <producedTypes>
+    <objectType typeId="10827223-c3b5-4fea-b760-2855e1c5639e" valueTypeId="5472370f-3216-49d8-8db4-1d15e616f927"/>
+    <refType typeId="0810db15-6090-4985-997b-4517285ecb7d" valueTypeId="0bf66867-9ea5-4cca-ae33-8bbba4b4ba56"/>
+    <selectionType typeId="c66091b8-fa76-4bd5-a1dd-2df3d18e357b" valueTypeId="350eba25-0b7a-4192-b75a-27e4f7a7a536"/>
+    <listType typeId="bb8c9a02-2ef7-48a2-9e19-cf94a21151e7" valueTypeId="74abcbcc-581c-427c-98c5-d906fe914055"/>
+    <managerType typeId="627729d0-a4e9-48dd-b8fd-ee0d57f25597" valueTypeId="2d8dcafc-ac5b-498f-90a9-f1589a585bc3"/>
+  </producedTypes>
+  <name>Произвольный</name>
+  <synonym>
+    <key>ru</key>
+    <value>Произвольный</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.Произвольный.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Произвольный</value>
+  </objectPresentation>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="75e976ca-17ec-496a-bbe6-2c4ef0a8108f">
+    <name>заказ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Заказ</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.ЗаказПокупателя</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Document>
